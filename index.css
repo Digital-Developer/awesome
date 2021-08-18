@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+*{
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;;
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+.navbar-brand{
+  font-size: 1.6rem;
+  font-weight: bolder;
+
+  
+}
+.navbar-brand:hover{
+  border-bottom: 2px solid gold;
+  font-size: 1.8rem;
+}
+.nav-link{
+  font-size: 1.1rem;
+  text-transform: capitalize;
+
+
+}
+.nav-link:hover{
+  font-size: 1.2rem;
+  border-bottom: 2px solid gold;
+  font-weight: bold;
+}
+.menue_style{
+  font-weight: bolder;
+  border-bottom: 1px solid rosybrown;
+}
+@media (max-width:991) {
+  .nav-link{
+    font-size: 0.8rem;
+  }
+  .navbar-brand{
+    font-size: 1.2rem;
+  }
+}
+/* home page */
+.brand_name{
+color: #DAA520;
+}
+.header_one{
+  font-weight: bolder;
+}
+.header_second{
+  color: #696969;
+  font-size: 1.5rem;
+}
+.btn-get-started{
+  text-decoration: none;
+  font-weight: bolder ;
+  color: black;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  font-size: 1.3rem;
+  border:  1px solid crimson;
+  border-radius:30px;
+  display: inline-block;
+}
+.btn-get-started:hover {
+  background-color: chartreuse;
+  color: #ffff;
+}
+.animated_img{
+  border-radius: 25px;
+  
+}
+.card-img-top{
+  height: 180px;
+}
